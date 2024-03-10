@@ -1,0 +1,1 @@
+alias dev-bash="docker compose run --rm dev bash"

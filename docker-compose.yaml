@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /usr/src/app/react-app
+    volumes:
+    - ./:/usr/src/app/
+    ports:
+      - 5173:5173
+    
